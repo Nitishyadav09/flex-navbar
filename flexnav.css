@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+  background-color: rgb(255, 195, 205);
+}
+.firstElement {
+  width: 100%;
+  margin: 0 auto;
+}
+.social li {
+  justify-content: flex-end;
+}
+
+nav {
+  background-color: rgba(45, 45, 221, 0.822);
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+a.fb {
+  background: url(img/fb.jpg) no-repeat center;
+  background-size: 60%;
+}
+a.twitter {
+  background: url(img/twitter.png) no-repeat center;
+  background-size: 60%;
+}
+.social a {
+  text-indent: -10000px;
+}
+
+.social {
+  max-width: 80px;
+  margin: 0 auto;
+  display: flex;
+}
+.social li {
+  flex: 1 1 0;
+}
+nav ul.social {
+  flex: 1 1 0;
+}
+
+#blocks {
+  margin: 20px;
+}
+div {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin: 5px 0;
+}
+.layout {
+  margin: 20px;
+  width: 170px;
+  display: none;
+}
+
+@media (min-width: 690px) {
+  nav ul {
+    display: flex;
+  }
+  nav li {
+    flex: 1 1 0;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .social {
+    margin: 0;
+  }
+  #blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  div {
+    flex: 0 1 32%;
+  }
+  div.stack {
+    flex: 0 1 100%;
+  }
+  .layout {
+    display: block;
+  }
+}

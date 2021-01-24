@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="flexnav.css">
+    <script src="http://code.jquery.com/jquery-1.12.1.js"></script>
+</head>
+<body>
+    <header class="firstElement">
+        <nav>
+         <ul>
+             <li>
+                 <a href="">HOME</a>
+            </li>
+            <li>
+                <a href="">ABOUT</a>
+            </li>
+             <li>   
+                <a href="">STORE</a>
+             </li>
+             <li>
+                <a href="">CONTACT</a>
+             </li>
+            </ul>
+
+            <ul class="social">
+                <li>
+                    <a href="" class="fb">Facebook</a>
+                </li>
+                <li>
+                  <a href="" class="twitter">Twitter</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    <div class="layout">
+     <span>Layout:</span>
+     <a href="#" class="stack">STACK</a>
+    <a href="#" class="grid">GRID</a>
+    </div>
+    <section id="blocks">
+        <div>
+            <h1>THIS IS MY SITE!!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt blanditiis repudiandae facere quos distinctio quis repellat? Nisi, inventore laboriosam amet repellendus, sit eaque, id autem cumque dolorum aut libero labore.
+            </p>
+        </div>
+                <div>
+                    <h1>THIS IS MY SITE!!</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, iste harum maiores dicta veniam earum, aliquam excepturi voluptatum nemo, commodi nostrum modi! Repellendus eum itaque quo rerum accusamus sunt dolorem!</p>
+                </div>
+                <div>
+                    <h1>MY HOBBIES!!</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, repellat. Magni fuga quas delectus nulla architecto reiciendis alias eos illo dolor ut ipsum deleniti voluptates reprehenderit, tenetur repudiandae eius ea?</p>
+                </div>
+                <div>
+                    <h1>BASKETBALL!!</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut saepe praesentium quia eos ut nesciunt dolorem mollitia, optio necessitatibus dolore. Ad molestias perferendis mollitia beatae aperiam praesentium temporibus, tenetur laborum?</p>
+                </div>
+                <div>
+                    <h1>MY SCHOOL!!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, commodi laboriosam fugit dolorum dicta voluptatem, autem nobis ea temporibus iusto eos nam, doloremque sit corporis. Alias, dolorem dolore! Placeat, magni.</p>
+                </div>
+                <div>
+                    <h1>SCHOOL BUS!!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione optio recusandae provident ipsum fugiat maiores exercitationem reprehenderit beatae mollitia neque eaque possimus tempora voluptate hic consequatur quam iure, molestias nihil.</p>
+                </div>
+                <div>
+                    <h1>CODING CLASS!!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione optio recusandae provident ipsum fugiat maiores
+                        exercitationem reprehenderit beatae mollitia neque eaque possimus tempora voluptate hic consequatur quam iure,
+                        molestias nihil.</p>
+                </div>
+                <div>
+                    <h1>COMPUTER SCIENCE!!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione optio recusandae provident ipsum fugiat maiores
+                        exercitationem reprehenderit beatae mollitia neque eaque possimus tempora voluptate hic consequatur quam iure,
+                        molestias nihil.</p>
+                </div>
+                <div>
+                    <h1>DELHI UNIVERSITY!!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione optio recusandae provident ipsum fugiat maiores
+                        exercitationem reprehenderit beatae mollitia neque eaque possimus tempora voluptate hic consequatur quam iure,
+                        molestias nihil.</p>
+                </div>
+
+                </section>
+                <script>
+                    $("a.stack").on("click", function(){
+                        $("div").addClass("stack");
+                    }); 
+                    $("a.grid").on("click", function () {
+                        $("div").removeClass("stack");
+                    });
+                </script>
+</body>
+</html>
